@@ -1,0 +1,166 @@
+/* الشيفرة الخاصة بالتغطية على السلة */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0; /* السلة تكون مخفية بشكل افتراضي */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  overflow-x: hidden;
+  transition: width 0.5s ease; /* تأثير التحريك عند عرض السلة */
+}
+
+.cart-visible {
+  width: 400px; /* عرض السلة عندما تكون مرئية */
+}
+
+/* محتوى السلة */
+.cart-content {
+  background-color: #fff;
+  height: 100%;
+  padding: 20px;
+  box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-y: auto; /* لضمان التمرير العمودي في حال كان المحتوى طويل */
+}
+
+/* رأس السلة */
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* زر إغلاق السلة */
+.close-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.close-btn:hover {
+  color: #dc3545; /* تغيير اللون عند التمرير على الزر */
+}
+
+/* حالة السلة الفارغة */
+.empty-cart {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.empty-icon {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.empty-cart h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.empty-cart p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* زر "استمرار التسوق" */
+.continue-shopping-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-shopping-btn:hover {
+  background-color: #333; /* تغيير اللون عند التمرير */
+}
+
+/* تنسيق المنتجات في السلة */
+.cart-items {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.cart-item-details h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.cart-item-details p {
+  font-size: 14px;
+  color: #777;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c82333; /* تغيير اللون عند التمرير على الزر */
+}
+
+/* قسم السعر الإجمالي */
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-total h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.checkout-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #218838; /* تغيير اللون عند التمرير */
+}

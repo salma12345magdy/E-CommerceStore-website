@@ -1,0 +1,450 @@
+[
+
+      {
+          "id": 1,
+          "name": "Men's T-shirt",
+          "price": 120,
+          "description": "A stylish men's t-shirt made from soft cotton, perfect for casual wear.",
+          "category": "men_fashion",
+          "images": [
+              "product 1_mens-fashion.jpg",
+              "product 1_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 2,
+          "name": "Men's Jeans",
+          "price": 250,
+          "description": "Comfortable and trendy men's jeans with a slim fit and modern look.",
+          "category": "men_fashion",
+          "images": [
+              "product 2_mens-fashion.jpg",
+              "product 2_1_mens-fashion"
+          ]
+      },
+      {
+          "id": 3,
+          "name": "Men's Jacket",
+          "price": 350,
+          "description": "A stylish jacket designed for the modern man, perfect for colder weather.",
+          "category": "men_fashion",
+          "images": [
+              "product 3_mens-fashion.jpg",
+              "product 3_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 4,
+          "name": "Men's Hoodie",
+          "price": 200,
+          "description": "A warm and comfy hoodie, perfect for casual outings and lounging.",
+          "category": "men_fashion",
+          "images": [
+              "product 4_mens-fashion.jpg",
+              "product 4_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 5,
+          "name": "Men's Shorts",
+          "price": 150,
+          "description": "Light and breathable shorts, ideal for hot summer days.",
+          "category": "men_fashion",
+          "images": [
+              "product 5_mens-fashion.jpg",
+              "iproduct 5_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 6,
+          "name": "Men's Blazer",
+          "price": 500,
+          "description": "A sleek and stylish men's blazer, perfect for formal and business occasions.",
+          "category": "men_fashion",
+          "images": [
+              "product 6_mens-fashion.jpg",
+              "product 6_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 7,
+          "name": "Men's Sweatpants",
+          "price": 180,
+          "description": "Comfortable sweatpants made from soft material, perfect for lounging or casual wear.",
+          "category": "men_fashion",
+          "images": [
+              "product 7_mens-fashion.jpg",
+              "product 7_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 8,
+          "name": "Men's Polo Shirt",
+          "price": 220,
+          "description": "A stylish polo shirt that combines comfort and elegance for everyday wear.",
+          "category": "men_fashion",
+          "images": [
+              "product 8_mens-fashion.jpg",
+              "product 8_1_mens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 9,
+          "name": "Men's Sweater",
+          "price": 300,
+          "description": "A cozy and warm sweater, perfect for cooler days and layering.",
+          "category": "men_fashion",
+          "images": [
+              "product 9_mens-fashion.jpg",
+              "images/mens-fashion/product9_1.jpg"
+          ]
+      },
+      {
+          "id": 10,
+          "name": "Men's Tracksuit",
+          "price": 250,
+          "description": "A sporty tracksuit made from comfortable material, ideal for workouts or casual wear.",
+          "category": "men_fashion",
+          "images": [
+              "product 10_mens-fashion.jpg",
+              "product 10_1_mens-fashion.jpg"
+          ]
+      },
+ 
+ 
+      {
+          "id": 11,
+          "name": "Women's Dress",
+          "price": 200,
+          "description": "A beautiful dress perfect for any occasion, with a flattering cut and modern design.",
+          "category": "women_fashion",
+          "images": [
+              "product 1_womens-fashion.jpg",
+              "product 1_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 12,
+          "name": "Women's Skirt",
+          "price": 150,
+          "description": "A chic and versatile skirt that can be dressed up or down for any occasion.",
+          "category": "women_fashion",
+          "images": [
+              "product 2_womens-fashion.jpg",
+              "product 2_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 13,
+          "name": "Women's Blouse",
+          "price": 130,
+          "description": "A light and airy blouse with a sophisticated design, perfect for a casual or professional look.",
+          "category": "women_fashion",
+          "images": [
+              "product 3_womens-fashion.jpg",
+              "product 3_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 14,
+          "name": "Women's Jeans",
+          "price": 250,
+          "description": "Slim-fit women's jeans, offering comfort and a modern style.",
+          "category": "women_fashion",
+          "images": [
+              "product 4_womens-fashion.jpg",
+              "product 4_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 15,
+          "name": "Women's Cardigan",
+          "price": 180,
+          "description": "A cozy cardigan that adds a touch of warmth and style to any outfit.",
+          "category": "women_fashion",
+          "images": [
+              "product 5_womens-fashion.jpg",
+              "product 5_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 16,
+          "name": "Women's Jacket",
+          "price": 350,
+          "description": "A stylish jacket perfect for cooler weather, offering both comfort and fashion.",
+          "category": "women_fashion",
+          "images": [
+              "product 6_womens-fashion.jpg",
+              "product 6_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 17,
+          "name": "Women's Tunic",
+          "price": 160,
+          "description": "A stylish tunic that offers a unique and comfortable look.",
+          "category": "women_fashion",
+          "images": [
+              "product 7_womens-fashion.jpg",
+              "product 7_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 18,
+          "name": "Women's Sweater",
+          "price": 220,
+          "description": "A soft and comfortable sweater, perfect for cooler days.",
+          "category": "women_fashion",
+          "images": [
+              "product 8_womens-fashion.jpg",
+              "product 8_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 19,
+          "name": "Women's Jumpsuit",
+          "price": 280,
+          "description": "A fashionable jumpsuit that combines style with comfort for a bold look.",
+          "category": "women_fashion",
+          "images": [
+              "product 9_womens-fashion.jpg",
+              "product 9_1_womens-fashion.jpg"
+          ]
+      },
+      {
+          "id": 20,
+          "name": "Women's Leggings",
+          "price": 140,
+          "description": "A pair of high-quality leggings that offer both comfort and flexibility.",
+          "category": "women_fashion",
+          "images": [
+              "product 10_womens-fashion.jpg",
+              "product 10_1_womens-fashion.jpg"
+          ]
+      },
+ 
+
+      {
+          "id": 21,
+          "name": "Men's Leather Wallet",
+          "price": 300,
+          "description": "A sleek leather wallet, combining functionality with sophistication for a perfect daily accessory.",
+          "category": "men_accessories",
+          "images": [
+              "product 1_mens-accessories.jpg",
+              "product 1_1_mens-accessories.jpg"
+          ]
+      },
+      {
+        "id": 22,
+          "name": "Men's Watch",
+          "price": 150,
+          "description": "A stylish men's watch with a modern design, perfect for adding elegance to any outfit.",
+          "category": "men_accessories",
+          "images": [
+              "product 2_mens-accessories.jpg",
+              "product 2_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 23,
+          "name": "Men's Sunglasses",
+          "price": 180,
+          "description": "A pair of trendy men's sunglasses, designed to protect your eyes while making a fashion statement.",
+          "category": "men_accessories",
+          "images": [
+              "product 3_mens-accessories.jpg",
+              "product 3_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 24,
+          "name": "Men's Belt",
+          "price": 120,
+          "description": "A stylish leather belt, perfect for completing your outfit.",
+          "category": "men_accessories",
+          "images": [
+              "product 4_mens-accessories.jpg",
+              "product 4_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 25,
+          "name": "Men's Hat",
+          "price": 100,
+          "description": "A fashionable hat to complement your outfit and protect you from the sun.",
+          "category": "men_accessories",
+          "images": [
+              "product 5_mens-accessories.jpg",
+              "product 5_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 26,
+          "name": "Men's Backpack",
+          "price": 220,
+          "description": "A modern and stylish backpack, perfect for daily use or travel.",
+          "category": "men_accessories",
+          "images": [
+              "product 6_mens-accessories.jpg",
+              "product 6_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 27,
+          "name": "Men's Scarf",
+          "price": 80,
+          "description": "A warm and cozy scarf that adds both style and comfort for colder weather.",
+          "category": "men_accessories",
+          "images": [
+              "product 7_mens-accessories.jpg",
+              "product 7_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 28,
+          "name": "Men's Gloves",
+          "price": 70,
+          "description": "A pair of soft leather gloves designed to keep your hands warm during the cold season.",
+          "category": "men_accessories",
+          "images": [
+              "product 8_mens-accessories.jpg",
+              "product 8_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 29,
+          "name": "Men's Socks",
+          "price": 30,
+          "description": "Comfortable socks made from soft cotton, perfect for all-day wear.",
+          "category": "men_accessories",
+          "images": [
+              "product 9_mens-accessories.jpg",
+              "product 9_1_mens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 30,
+          "name": "Men's Cufflinks",
+          "price": 150,
+          "description": "Elegant cufflinks designed to add a touch of class to your formal outfit.",
+          "category": "men_accessories",
+          "images": [
+              "product 10_mens-accessories.jpg",
+              "product 10_1_mens-accessories.jpg"
+          ]
+      },
+  
+
+      {
+          "id": 31,
+          "name": "Women's Handbag",
+          "price": 250,
+          "description": "A spacious and stylish handbag made of premium leather, designed for both work and play.",
+          "category": "women_accessories",
+          "images": [
+              "product 1_womens-accessories.jpg",
+              "product 1_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 32,
+          "name": "Women's Necklace",
+          "price": 120,
+          "description": "A delicate gold-plated necklace that adds a touch of elegance to any outfit.",
+          "category": "women_accessories",
+          "images": [
+              "product 2_womens-accessories.jpg",
+              "product 2_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 33,
+          "name": "Women's Sunglasses",
+          "price": 180,
+          "description": "Fashion-forward sunglasses, perfect for protecting your eyes while staying stylish.",
+          "category": "women_accessories",
+          "images": [
+              "product 3_womens-accessories.jpg",
+              "product 3_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 34,
+          "name": "Women's Scarf",
+          "price": 100,
+          "description": "A soft and fashionable scarf that adds warmth and style to your outfit.",
+          "category": "women_accessories",
+          "images": [
+              "product 4_womens-accessories.jpg",
+              "product 4_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 35,
+          "name": "Women's Earrings",
+          "price": 90,
+          "description": "Elegant earrings that complete any outfit with a touch of sophistication.",
+          "category": "women_accessories",
+          "images": [
+              "product 5_womens-accessories.jpg",
+              "product 5_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 36,
+          "name": "Women's Bracelet",
+          "price": 110,
+          "description": "A stylish bracelet designed to complement your look and add a touch of elegance.",
+          "category": "women_accessories",
+          "images": [
+              "product 6_womens-accessories.jpg",
+              "product 6_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 37,
+          "name": "Women's Ring",
+          "price": 160,
+          "description": "A beautiful ring that adds sophistication and glamour to your outfit.",
+          "category": "women_accessories",
+          "images": [
+              "product 7_womens-accessories.jpg",
+              "product 7_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 38,
+          "name": "Women's Watch",
+          "price": 220,
+          "description": "An elegant women's watch with a timeless design, perfect for any occasion.",
+          "category": "women_accessories",
+          "images": [
+              "product 8_womens-accessories.jpg",
+              "product 8_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 39,
+          "name": "Women's Belt",
+          "price": 80,
+          "description": "A sleek leather belt that adds a stylish touch to your wardrobe.",
+          "category": "women_accessories",
+          "images": [
+              "product 9_womens-accessories.jpg",
+              "product 9_1_womens-accessories.jpg"
+          ]
+      },
+      {
+          "id": 40,
+          "name": "Women's Gloves",
+          "price": 75,
+          "description": "Soft gloves designed for both warmth and fashion during colder weather.",
+          "category": "women_accessories",
+          "images": [
+              "product 10_womens-accessories.jpg",
+              "product 10_1_womens-accessories.jpg"
+          ]
+      }
+    ]
+

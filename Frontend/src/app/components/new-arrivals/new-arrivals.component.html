@@ -1,0 +1,42 @@
+<div class="new-arrival-container">
+  <h2>New Arrivals</h2>
+  <p>Discover the latest trends in fashion and accessories. Select your category below to explore!</p>
+
+  <div class="categories-tabs">
+    <button 
+      *ngFor="let category of categories" 
+      [ngClass]="{'active-tab': activeCategory === category.key}" 
+      (click)="selectCategory(category.key)">
+      {{ category.label }}
+    </button>
+  </div>
+
+  <div class="category-content">
+    <p *ngIf="loading">Loading products...</p>
+
+    <div *ngIf="!loading && products.length > 0">
+      <div class="product-grid">
+        <div *ngFor="let product of products" class="product-card">
+          
+          <img [src]="'http://localhost:3000/images/' + product.imageUrl" alt="{{ product.name }}">
+
+          <h3>{{ product.name }}</h3>
+          <p>{{ product.description }}</p>
+          <p>{{ product.price | currency }}</p>
+
+          <div class="product-actions">
+            <button [routerLink]="['/product', product._id]">View Details</button>
+            <button (click)="addToCart(product)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="!loading && products.length > 0">
+        <button class="view-more-btn" (click)="viewMore()">View More</button>
+      </div>
+    </div>
+
+    <p *ngIf="!loading && products.length === 0">No products available in this category.</p>
+  </div>
+</div>
+

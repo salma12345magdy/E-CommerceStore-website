@@ -1,0 +1,42 @@
+<div class="cart-overlay" [ngClass]="{ 'cart-visible': cartVisible }">
+  <div class="dark-overlay" *ngIf="cartVisible"></div>
+  <div class="cart-content">
+    <div class="cart-header">
+      <h2>Shopping Cart ({{ cartItems.length }})</h2>
+      <button (click)="closeCart()" class="close-btn">&times;</button>
+    </div>
+
+    <!-- Empty Cart Section -->
+    <div *ngIf="cartItems.length === 0" class="empty-cart">
+      <img src="cart.png" alt="Empty Cart Icon" class="empty-icon">
+      <h3>Your cart is currently empty!</h3>
+      <p>You may check out all the available products and buy some in the shop.</p>
+      <button (click)="continueShopping()" class="continue-shopping-btn">Continue Shopping</button>
+    </div>
+
+    <!-- Cart Items Section -->
+    <div *ngIf="cartItems.length > 0" class="cart-items">
+      <div *ngFor="let item of cartItems" class="cart-item">
+        <img [src]="'/images/' + item.imageUrl" alt="{{ item.name }}" class="cart-item-image">
+        <div class="cart-item-details">
+          <h4>{{ item.name }}</h4>
+          <p>{{ item.description }}</p>
+          <p>{{ item.price | currency }}</p>
+          <p>Quantity: {{ item.quantity }}</p>
+          <button (click)="removeFromCart(item.productId)" class="remove-btn">Remove</button>
+        </div>
+      </div>
+
+      <!-- Total Price -->
+      <div class="cart-total">
+        <h3>Total: {{ totalPrice | currency }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

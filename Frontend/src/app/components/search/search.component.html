@@ -1,0 +1,27 @@
+<div class="search-container">
+  <h2>Search Our Site</h2>
+  <div class="search-box">
+    <input
+      type="text"
+      placeholder="I am looking for..."
+      [(ngModel)]="searchText"
+    />
+    <button (click)="onSearch()">
+      <i class="fas fa-search"></i> 
+    </button>
+  </div>
+
+  <div *ngIf="filteredProducts.length > 0">
+    <h3>Search Results</h3>
+    <div *ngFor="let product of filteredProducts">
+      <div class="product-item">
+        <img [src]="product.imageUrl" alt="product image" />
+        <h4>{{ product.name }}</h4>
+        <p>{{ product.category }}</p>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="filteredProducts.length === 0">
+    <p>No products found</p>
+  </div>
+</div>

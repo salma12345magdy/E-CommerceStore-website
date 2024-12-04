@@ -1,0 +1,34 @@
+<div *ngIf="product">
+  <div class="product-details-container">
+    <!-- زر الإغلاق -->
+    <span class="close-button" (click)="closeProduct()">X</span>
+
+    <!-- الصور -->
+    <div class="product-images">
+      <!-- الصورة الرئيسية -->
+      <div class="main-image">
+        <img [src]="selectedImage" alt="{{ product.name }}">
+      </div>
+
+      <!-- الصور المصغرة -->
+      <div class="image-thumbnails">
+        <img 
+          *ngFor="let image of product.images" 
+          [src]="'http://localhost:3000/images/' + image" 
+          (click)="changeImage(image)"
+          [class.active]="selectedImage === 'http://localhost:3000/images/' + image"
+          alt="Thumbnail">
+      </div>
+    </div>
+
+    <!-- معلومات المنتج -->
+    <div class="product-info">
+      <h1>{{ product.name }}</h1>
+      <p class="price">{{ product.price | currency }}</p>
+      <p class="description">{{ product.description }}</p>
+      
+      <!-- زر إضافة إلى السلة
+      <button (click)="addToCart(product)">Add to Cart</button> -->
+    </div>
+  </div>
+</div>

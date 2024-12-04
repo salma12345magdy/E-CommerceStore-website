@@ -1,0 +1,71 @@
+/* Container Styling */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Heading Styling */
+  .login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Input Fields */
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-container input[type="email"]:focus,
+  .login-container input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Login Button */
+  .login-container button[type="submit"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Forgot Password & Register Links */
+  .login-container p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .login-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+}  

@@ -1,0 +1,58 @@
+<p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+
+<!-- Add Product Form -->
+<form (ngSubmit)="addProduct()">
+  <label for="name">Product Name:</label>
+  <input [(ngModel)]="newProduct.name" name="name" required />
+  <br>
+
+  <label for="description">Description:</label>
+  <textarea [(ngModel)]="newProduct.description" name="description" required></textarea>
+  <br>
+
+  <label for="category">Category:</label>
+  <input [(ngModel)]="newProduct.category" name="category" required />
+  <br>
+
+  <label for="price">Price:</label>
+  <input [(ngModel)]="newProduct.price" name="price" type="number" required />
+  <br>
+
+  <label for="images">Image URLs (comma-separated):</label>
+  <input [(ngModel)]="newProduct.images" name="images" required />
+  <br>
+
+  <button type="submit" class="submit-button">Add Product</button>
+</form>
+
+<!-- Display all products -->
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>Images</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.name }}</td>
+      <td>{{ product.category }}</td>
+      <td>{{ product.price | currency }}</td>
+      <td>{{ product.description }}</td>
+      <td>
+        <div *ngFor="let img of getImagesArray(product.images)">
+          <img [src]="img" alt="product image" width="50" height="50" />
+        </div>
+      </td>
+      <td>
+        <button (click)="deleteProduct(product._id)" class="delete-button">Delete</button>
+        <button (click)="editProduct(product)" class="edit-button">Edit</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+

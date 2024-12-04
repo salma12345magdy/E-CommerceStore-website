@@ -1,0 +1,36 @@
+<h2 class="page-title">View Messages</h2>
+<p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+
+<div class="messages-container">
+  <table class="messages-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+        <th>Send At</th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let message of messages">
+        <td>{{ message.name }}</td>
+        <td>{{ message.email }}</td> 
+        <td>{{ message.message | slice:0:50 }}...</td> 
+        <td>{{ message.createdAt | date:'short' }}</td> 
+        <td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="selectedMessage" class="message-details">
+  <h3>Message Details</h3>
+  <p><strong>Sender:</strong> {{ selectedMessage.name }}</p>
+  <p><strong>Email:</strong> {{ selectedMessage.email }}</p> 
+  <p><strong>Message:</strong> {{ selectedMessage.message }}</p>
+  <p><strong>Send At:</strong> {{ selectedMessage.createdAt | date:'fullDate' }} at {{ selectedMessage.createdAt | date:'shortTime' }}</p> <!-- Display full date and short time -->
+  <button (click)="resetSelectedMessage()">Back to List</button>
+</div>
+
+
